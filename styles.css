@@ -1,0 +1,250 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #2e3b4e;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #d62793;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #2e3b4e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#testimonials {
+    background-color: #f4f4f4;
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial strong {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+#submit-testimonial {
+    padding: 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+#testimonial-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#testimonial-form input, #testimonial-form textarea {
+    width: 80%;
+    max-width: 600px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#testimonial-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#testimonial-form button:hover {
+    background-color: #45a049;
+}
+#contact {
+    padding: 40px;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 80%;
+    max-width: 600px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#contact-form button:hover {
+    background-color: #45a049;
+}
+#faq {
+    padding: 40px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.faq-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    color: #555;
+}
+#pricing {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.pricing-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pricing-item p {
+    color: #555;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.pricing-item strong {
+    font-size: 22px;
+    color: #4CAF50;
+}
+/* Footer Styles */
+footer {
+    background-color: #002855;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-media a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.social-media a:hover {
+    transform: scale(1.1);
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

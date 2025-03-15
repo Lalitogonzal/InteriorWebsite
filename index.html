@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>Business Name</h1>
+            <h1>Katie Dickens Interior</h1>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -38,12 +38,88 @@
     <section id="services" class="container">
         <h2>Our Services</h2>
         <ul>
-            <li>Web Development</li>
-            <li>Digital Marketing</li>
-            <li>SEO Optimization</li>
-            <li>Branding & Design</li>
+            <li>Boutique Home Staging</li>
+            <li>Listing Prep</li>
+            <li>Airbnb Design</li>
+            <li>Residential Consulting</li>
         </ul>
     </section>
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>"I had an amazing experience with this moving service! The team was fast, careful, and friendly. Highly recommend!"</p>
+            <p><strong>- Sarah M.</strong></p>
+        </div>
+        <div class="testimonial">
+            <p>"Great service at an affordable price. They made my move stress-free!"</p>
+            <p><strong>- John D.</strong></p>
+        </div>
+        <div class="testimonial">
+            <p>"Efficient and reliable. I will definitely use them again for my next move!"</p>
+            <p><strong>- Emily W.</strong></p>
+        </div>
+    </section>
+    <section id="submit-testimonial">
+        <h2>Submit Your Testimonial</h2>
+        <form id="testimonial-form">
+            <label for="testimonial-name">Your Name:</label>
+            <input type="text" id="testimonial-name" required>
+    
+            <label for="testimonial-message">Your Testimonial:</label>
+            <textarea id="testimonial-message" required></textarea>
+    
+            <button type="submit">Submit Testimonial</button>
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+    
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" required>
+    
+            <label for="message">Your Message:</label>
+            <textarea id="message" required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>How far in advance should I book my move?</h3>
+            <p>We recommend booking your move at least 1-2 weeks in advance, especially during peak moving seasons.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Do you offer packing services?</h3>
+            <p>Yes, we provide packing services to help make your move easier. Let us know if you'd like to include it when you book your move!</p>
+        </div>
+        <div class="faq-item">
+            <h3>What if I need to reschedule my move?</h3>
+            <p>If you need to reschedule, please give us at least 24 hours' notice, and we will do our best to accommodate your new preferred date.</p>
+        </div>
+    </section>
+    <section id="pricing">
+        <h2>Our Pricing</h2>
+        <div class="pricing-item">
+            <h3>Basic Move</h3>
+            <p>For small apartments or 1-2 rooms. Includes moving labor and transportation.</p>
+            <p><strong>$100/hr</strong></p>
+        </div>
+        <div class="pricing-item">
+            <h3>Standard Move</h3>
+            <p>For larger apartments or homes. Includes packing, labor, and transportation.</p>
+            <p><strong>$200/hr</strong></p>
+        </div>
+        <div class="pricing-item">
+            <h3>Full Service Move</h3>
+            <p>Complete moving service, including packing, loading, transportation, and unloading.</p>
+            <p><strong>$300/hr</strong></p>
+        </div>
+    </section>
+    
 
     <section id="portfolio" class="container">
         <h2>Our Work</h2>
@@ -84,6 +160,21 @@
             const result = await response.json();
             document.getElementById('formResponse').innerText = result.message;
         });
+        <footer>
+    <h3>Follow Us</h3>
+    <div class="social-media">
+        <a href="https://www.facebook.com/yourpage" target="_blank">
+            <img src="images/facebook-icon.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/yourpage" target="_blank">
+            <img src="images/instagram-icon.png" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+            <img src="images/linkedin-icon.png" alt="LinkedIn">
+        </a>
+    </div>
+</footer>
+
     </script>
 </body>
 </html>
